@@ -65,14 +65,27 @@ body {font-family:serif;
 
 }
 
-#top-menu li{
+#top-menu li {
 	padding:10px;
 	float:left;
 	margin:10px;
 	border:5px;
 	clear:right;
 	text-decoration:none;
-	text-color:coral;
-	
-	
+}
+
+
+h1 { 
+	font-family:sans-serif;
+	font-color:orange;
+	font-size:30px;
+ 
+
+}
+
+h5 { 
+	font-family:sans-serif;
+	font-color:orange;
+	font-size:15px;
+
 }
