@@ -87,14 +87,15 @@ h5 {
 	padding: 10px;
 	margin: 5px;
 	border: 5px;
-	clear: left;
+	
 }
 
 .directions{
 	padding: 10px;
 	margin: 5px;
 	border: 5px;
-	clear: left;
+	float:right;
+	
 	
 	
 	
