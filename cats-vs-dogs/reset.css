@@ -73,13 +73,25 @@ html[xmlns] .clearfix { display: block; }
 
 .dog-cat {
 	font-family: sans-serif;
-	font-size: 6em;
-	font-color: red;
+	font-size: 4em;
+  
+}
+
+.logo-hr1{
+	height: 4px;
+	
+	
+	
+}
+
+.logo-hr2{
+	height: 2px;
+	
 }
 
 #vs {
 	font-family: sans-serif;
-	font-size: 3em;
+	font-size: 2.5em;
 	color: #C6C6C6;
 }
 
@@ -87,12 +99,22 @@ html[xmlns] .clearfix { display: block; }
 	padding: 5px;
 	margin: 5px;
 	border: 5px;
-	list-style-type: none;
+	text-decoration: none;
 	
 }
 h3 {
-	color: red;
+	font-size: 1.5em;
+	font: bold;
 	
 }
 
+hr {
+	height: 2px;
+}
 
+
+.caption {
+	font-family: serif;
+	font-size: 1em;
+	
+}
