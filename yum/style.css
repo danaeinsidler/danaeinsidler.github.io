@@ -57,19 +57,16 @@ table {
 /*-----------------Dana Start Here------------------*/
 
 #top-menu a{
-	padding: 20px;
+	padding: 5px;
 	border: 5px;
-	margin: 10px;
+	margin: 5px;
 	text-decoration: none;
 	font-family: sans-serif;
 	color: #02C2FD;
 
 }
-
 body{
-	
 	color: #02073A;
-	font-family: serif;
 }
 
 h1 { 
@@ -77,9 +74,9 @@ h1 {
 	font-size: 30px;
 	background-color:yellow;
 	padding: 5px;
-	margin: 5px;
 	border: 5px;
-		
+	margin: 5px;
+	
 }
 
 h5 { 
@@ -87,39 +84,43 @@ h5 {
 	background-color:yellow;
 	font-size: 15px;
 	padding: 5px;
-	margin: 5px;
 	border: 5px;
+	margin: 5px;
 	
-
 }
 
 .ingredients{
-	color: red;
+	font-family: serif;
+	font-color: #02073A;
 	padding: 10px;
-	margin: 5px;
 	border: 5px;
-
-	
+	margin: 5px;
 	
 }
 
 .directions{
+	font-family: serif;
+	font-color: #02073A;
 	padding: 10px;
-	margin: 5px;
 	border: 5px;
-	float:right;
-	
-	
-	
-	
-	
-
+	margin: 5px;
+		
 }
 
 a{ 
 	font-family:sans-serif;
 	color: #02073A;
 	text-decoration: none;
+	padding: 5px;
+	border: 5px;
+	margin: 5px;
+	
+}
+
+footer{
+	
+	font-family:sans-serif;
+	color: #02073A;
 }
 
 
