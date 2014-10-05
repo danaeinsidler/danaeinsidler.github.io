@@ -74,3 +74,16 @@ html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
 
+/* start here */
+#logo {
+	align:center;
+}
+#navbar {
+	float: left;
+	
+	
+	
+}
+
+
+
