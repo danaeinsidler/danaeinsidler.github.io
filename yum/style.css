@@ -130,6 +130,7 @@ h1 {
 	line-height: 1.2em;
 	list-style-type: decimal;
 	list-style-position: outside;
+	indent: 5px;
 }
 
 
