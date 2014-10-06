@@ -76,6 +76,13 @@ body{
 	width: 80%
 	
 }
+
+
+.dog-section {
+	float:right;
+	clear:left;
+	
+}
 .dog {
 	float:right;
 	clear:left;
@@ -88,6 +95,12 @@ body{
 	margin-right: 5px;
 
   
+}
+
+.cat-section {
+	
+	float:left;
+	clear:right;
 }
 
 .cat {
