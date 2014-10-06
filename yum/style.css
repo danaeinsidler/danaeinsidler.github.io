@@ -129,8 +129,12 @@ h1 {
 	margin: 5px;
 	line-height: 1.2em;
 	list-style-position: inside;
+	list-style-type: decimal;
+	
 		
 }
+
+
 
 a{ 
 	font-family:sans-serif;
