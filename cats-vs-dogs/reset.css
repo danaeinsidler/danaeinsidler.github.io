@@ -71,7 +71,29 @@ html[xmlns] .clearfix { display: block; }
 
 /* start here */
 
-.dog-cat {
+body{
+	margin: 0 auto;
+	width: 80%
+	
+}
+.dog {
+	float:right;
+	clear:left;
+	text-align:center;
+	font-family: sans-serif;
+	font-size: 5em;
+	padding-left:5px;
+	bottom padding:10px;
+	border-right: 5px;
+	margin-right: 5px;
+
+  
+}
+
+.cat {
+	float:left;
+	clear:right;
+	text-align:center;
 	font-family: sans-serif;
 	font-size: 5em;
 	padding-left:5px;
@@ -104,6 +126,7 @@ html[xmlns] .clearfix { display: block; }
 }
 
 #vs {
+	text-align:center;
 	font-family: sans-serif;
 	font-size: 3em;
 	color: #C6C6C6;
@@ -116,11 +139,14 @@ html[xmlns] .clearfix { display: block; }
 	list-style-type: circle;
 	text-decoration: none;
 	font-weight: bold;
+	font-size: 1.5em;
 	color: black;
-	padding:5px;
+	padding: 5px;
 	border: 5px;
-	margin:5px;
-
+	margin: 5px;
+	float: left;
+	clear: right;
+	width: 80px;
 		
 }
 	
@@ -166,6 +192,22 @@ p{
 footer{
 	
 	font-size: .75em;
+}
+
+#martha{
+	float: right;
+	width:20%;
+	clear:right;
+	
+}
+
+#wiki{ float: left;
+	clear:right;
+	width:40%;
+
+
+
+
 }
 
 em{
