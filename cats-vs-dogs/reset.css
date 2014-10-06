@@ -113,7 +113,7 @@ html[xmlns] .clearfix { display: block; }
 }
 
 #navbar a{
-	
+	list-style-type: circle;
 	text-decoration: none;
 	font-weight: bold;
 	color: black;
@@ -122,10 +122,6 @@ html[xmlns] .clearfix { display: block; }
 	margin:5px;
 
 		
-}
-
-ul{
-	list-style-type: circle;
 }
 	
 h3 {
