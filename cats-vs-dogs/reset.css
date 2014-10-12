@@ -81,11 +81,14 @@ body{
 .dog-section {
 	float:right;
 	clear:left;
+	width:50%;
 	
 }
 .dog {
+	display:inline-block;
 	float:right;
 	clear:left;
+	width: 50%;
 	text-align:center;
 	font-family: sans-serif;
 	font-size: 5em;
@@ -98,14 +101,16 @@ body{
 }
 
 .cat-section {
-	
+	display:inline-block;
 	float:left;
 	clear:right;
+	width:50%;
 }
 
 .cat {
 	float:left;
 	clear:right;
+	width: 50%;
 	text-align:center;
 	font-family: sans-serif;
 	font-size: 5em;
@@ -159,7 +164,8 @@ body{
 	margin: 5px;
 	float: left;
 	clear: right;
-	width: 80px;
+	width:100%
+	text-align:center;
 		
 }
 	
@@ -207,9 +213,6 @@ footer{
 #wiki{ float: left;
 	clear:right;
 	width:40%;
-
-
-
 
 }
 

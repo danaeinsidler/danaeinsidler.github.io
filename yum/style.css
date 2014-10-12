@@ -58,37 +58,48 @@ table {
 
 #top-menu a{
 
-padding: 5px;
+	bottom-padding: 30px;
+	top-padding:20px;
 	border: 5px;
 	margin: 5px;
 	text-decoration: none;
 	font-family: sans-serif;
 	color: #02C2FD;
-
+	float:left;
+	clear:right;
+	width:100%;
+	
 }
 
 header{
+	float:left;
+	clear:right;
+	width:100%;
 	font-family:sans-serif;
 	font-size:3em;
 	color: #02073A;
-	padding: 1px;
+	padding: 2px;
 	border: 2px;
 	margin: 5px;
+	
 }
 
 body{
 	color: #02073A;
 	font-family: serif;
+	
 }
 
 #hellyea{
+	
 	font-color: #02C2FD;
 	font-size: .75em;
 	padding: 5px;
 	border: 5px;
 	margin: 5px;
-	
-	
+	float:left;
+	clear:right;
+	width:100%;
 }
 
 
@@ -98,50 +109,71 @@ h1 {
 	padding: 5px;
 	border: 5px;
 	margin: 5px;
-	
-}
-
-.sub-title{ 
-	font-family:sans-serif;
-	font-size: 15px;
-	padding: 5px;
-	border: 5px;
-	margin: 5px;
-	font-weight: bold;
+	float:left;
+	clear: right;
+	width:100%;
 	
 }
 
 .ingredients{
+	width: 20%;
+	float: left;
+	clear: right;
+	font-style: italic;
 	font-family: serif;
 	font-color: #02073A;
-	padding: 10px;
+	padding: 0px 10px 10px 20px; 
 	border: 5px;
-	margin: 5px;
-	line-height: 1.2em;
+	margin-left:5px; 
+	line-height: 1.5em;
 	
 }
+
+.ingredient-title{
+	position:relative;
+	left:5px;
+	top:30;
+	padding:10px;
+	border: 5px;
+	margin-left:5px;
+	
+}
+
 
 .directions{
+	float: left;
+	clear: right;
+	width: 40%;
 	font-family: serif;
-	font-color: #02073A;
-	padding: 10px;
-	border: 5px;
-	margin: 5px;
-	line-height: 1.2em;
-	list-style-type: decimal;
-	list-style-position: outside;
+	color: #02073A;
+	line-height: 1.3em;
+	list-style-type:none;
+	
+}
+
+.direction-title{
+	position: relative;
+
+	padding:10px;
+	border:5px;
+	margin:5px;
+	
+	
 	
 }
 
 
-
-a{ 
+.original{ 
 	font-family:sans-serif;
 	color: #02073A;
 	text-decoration: none;
 	padding: 5px;
 	border: 5px;
 	margin: 5px;
+	float:left;
+	clear:right;
+	width:50%;
+
 	
 }
 
@@ -152,6 +184,14 @@ footer{
 	padding: 5px;
 	border: 5px;
 	margin: 5px;
+	float:right;
+	clear:left;
+}
+
+hr{
+	height: 4px;
+	color: #02073A;
+	width: 100%;
 }
 
 em{
