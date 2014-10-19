@@ -92,66 +92,36 @@ table {
 
 
 #main-content {
-	
 	font-style:sans-serif;
 	font-size:.80em;
-	
-	
-	
 	
 }
 
 h1{
 	font-style:sans-serif;
 	font-size: 2em;
-	font-decoration:bold;
+	font-weight:bold;
 	
 	
 }
-
 
 h2{
-	font-size:.5em;
-	font-color: #AAAAAA;
-	
-}
-
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-/* -----------------END RESET---------------- */
-
-
-#main-content {
 	font-style:sans-serif;
-	font-size:.80em;
-	
-	
-	
-	
-}
-
-h1{
-	font-style:sans-serif;
-	font-size: 2em;
-	font-decoration:bold;
-	
+	color:#AAA;
+	font-size:;
 	
 }
 
 
-article{
+#dingdong{
 	float:left;
 	
+	
+}
+
+
+#ladies{
+	
+	float:right;
 	
 }
