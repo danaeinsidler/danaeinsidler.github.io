@@ -97,31 +97,32 @@ table {
 	
 }
 
-h1{
+h1 {
 	font-style:sans-serif;
 	font-size: 2em;
 	font-weight:bold;
+	color:red;
 	
 	
 }
 
-h2{
+h2 {
 	font-style:sans-serif;
 	color:#AAA;
-	font-size:;
+	
 	
 }
 
 
-#dingdong{
+#dingdong {
 	float:left;
 	
 	
 }
 
 
-#ladies{
+#ladies {
 	
-	float:right;
+	float:left;
 	
 }
