@@ -81,13 +81,12 @@ body{
 .dog-section {
 	float:right;
 	clear:left;
-	width:50%;
-	
+	width:45%;
+	padding:2px;
 }
 .dog {
-	display:inline-block;
 	float:right;
-	clear:left;
+	align:0 auto;
 	width: 50%;
 	text-align:center;
 	font-family: sans-serif;
@@ -101,15 +100,15 @@ body{
 }
 
 .cat-section {
-	display:inline-block;
 	float:left;
-	clear:right;
-	width:50%;
+	width:45%;
+	right-margin:10px;
+	padding:2px;
 }
 
 .cat {
 	float:left;
-	clear:right;
+	align:0 auto;
 	width: 50%;
 	text-align:center;
 	font-family: sans-serif;
@@ -154,7 +153,7 @@ body{
 }
 
 #navbar a{
-	list-style-type: circle;
+	text-align:center;
 	text-decoration: none;
 	font-weight: bold;
 	font-size: 1.5em;
@@ -163,10 +162,9 @@ body{
 	border: 5px;
 	margin: 5px;
 	float: left;
-	clear: right;
-	width:100%
-	text-align:center;
-		
+	display:list-item;
+	
+
 }
 	
 h3 {
@@ -190,6 +188,7 @@ hr {
 
 
 p{
+	display:block;
 	font-size:.90em;
 	line-height: 1.2em;
 	padding: 5px;
@@ -199,7 +198,6 @@ p{
 }
 
 footer{
-	
 	font-size: .75em;
 }
 
