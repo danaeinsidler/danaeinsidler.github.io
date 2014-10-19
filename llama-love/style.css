@@ -1,5 +1,3 @@
-
-
 /* Meyer Reset */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -94,7 +92,7 @@ table {
 #main-content {
 	font-style:sans-serif;
 	font-size:.80em;
-	
+	margin: auto;
 }
 
 h1 {
@@ -110,19 +108,20 @@ h2 {
 	font-style:sans-serif;
 	color:#AAA;
 	
-	
 }
 
 
-#dingdong {
+.dingdong {
 	float:left;
+	width:40%;
+	padding:20px;
 	
 	
 }
 
-
-#ladies {
-	
-	float:left;
+.ladies {
+	float:right;
+	width:40%;
+	padding:20px;
 	
 }
