@@ -92,7 +92,7 @@ table {
 #main-content {
 	font-style:sans-serif;
 	font-size:.80em;
-	margin: auto;
+	margin: 0 auto;
 }
 
 h1 {
@@ -115,6 +115,7 @@ h2 {
 	float:left;
 	width:40%;
 	padding:20px;
+	margin-left: 50px;
 	
 	
 }
@@ -123,5 +124,15 @@ h2 {
 	float:right;
 	width:40%;
 	padding:20px;
+	margin:20px;
+	
+}
+
+img{
+	float:left;
+	height:200px;
+	width:200px;
+	padding:20px;
+	
 	
 }
