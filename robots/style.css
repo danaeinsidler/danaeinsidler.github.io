@@ -50,3 +50,72 @@ table {
 	border-spacing: 0;
 }
 
+
+/*-----end-------*/
+
+#top-nav a{
+	postion:absolute;
+	top:20px;
+	right:30px;
+	
+	
+	
+}
+
+#site-wrapper{
+	
+	background-color: #ebf2d5;
+	padding:30px;
+	
+	
+}
+
+#site-header {
+	float:left;
+	margin:auto;
+	font-family:sans-serif;
+	padding:15px;
+	text-decoration:none;
+	
+	
+}
+
+#menu-wrapper{
+	
+	background-color:#76481b;
+	padding:10px;
+}
+
+
+#main-menu a{
+	float:left;
+	margin:auto;
+	font-family:sans-serif;
+	padding:15px;
+	text-decoration:none;
+	
+}
+
+
+#sidebar a{
+	position:relative;
+	left:60%;
+
+	
+}
+
+
+#footer-wrapper{
+	background-color:#76481b;
+	padding:40px;
+	
+	
+}
+
+
+#follow-us{
+	float: right;
+	
+	
+	
+}
