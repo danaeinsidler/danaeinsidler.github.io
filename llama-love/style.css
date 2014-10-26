@@ -100,6 +100,7 @@ h1 {
 	font-size: 2em;
 	font-weight:bold;
 	padding-bottom:5px;
+	margin-top:15px;
 	
 	
 	
@@ -110,6 +111,7 @@ h2 {
 	color:#AAA;
 	padding-bottom:10px;
 	font-size:.8em;
+	margin-bottom:10px;
 	
 }
 
