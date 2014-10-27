@@ -52,6 +52,37 @@ table {
 
 
 /*-----end-------*/
+
+#site-header h1 a{
+	display:block;
+	width:300px;
+	height:80px;
+	background:url(images/logo.png) no-repeat;
+	text-indent:;
+}
+
+
+h1{
+	font-family:sans-serif;
+	color:#76481b;
+	font-size:2em;
+	text-transform:uppercase;
+	font-weight:bold;
+	padding-bottom:;
+	
+}
+
+
+h2{
+	font-family:sans-serif;
+	color:#76481b;
+	font-size:1em;
+	text-transform:uppercase;
+	padding-top:1em;
+	padding-bottom:.2em;
+	
+}
+
 body {
 	margin:0 auto;
 	width:100%;
@@ -208,34 +239,26 @@ body {
 
 #footer-wrapper{
 	background-color:#76481b;
-	padding:80px;
+	padding-top:20px;
+	padding-bottom:50px;
 	width:100%;
-	height:10%;
-	position:relative;
 	
-
 }
 
 #site-footer{
 	font-family:sans-serif;
 	color:white;
 	font-size:.6em;
-	display:block;
 	line-height:1.6em;
-	padding:20px;
 	margin:0 auto;
+	width:65%;
+	margin-bottom:80px;
 }
 
 #footer-follow {
 	float:right;
 	width:25%;
-	height:20%;
-	padding-bottom:200px;
-	margin-right:200px;
-	margin-bottom:200px;
-	
-	
-	
+
 }
 
 #footer-follow h1{
@@ -244,29 +267,18 @@ body {
 	color:#ebf2d5;
 	font-size:1.5em;
 	
-	
-	
-	
 }
 
-#footer-follow ul a{
-	float:left;
-	
-	
-}
+
 
 #footer-contact{
-	position:absolute;
-	top:10px;
-	left:240px;
-	width:10%;
-	height:10%;
+	float:left;
+	width:15%;
 
 
 }
 
 #footer-contact h1{
-	display:inline;
 	font-family:sans-serif;
 	color:#ebf2d5;
 	font-size:1.5em;
@@ -275,29 +287,12 @@ body {
 #follow-us{
 	float: right;
 	width:20%;
-	margin-bottom:30px;
-	
+}
+
+
+#footer-follow ul a{
+	float:left;
 	
 	
 }
 
-h1{
-	font-family:sans-serif;
-	color:#76481b;
-	font-size:2em;
-	text-transform:uppercase;
-	font-weight:bold;
-	padding-bottom:;
-	
-}
-
-
-h2{
-	font-family:sans-serif;
-	color:#76481b;
-	font-size:1em;
-	text-transform:uppercase;
-	padding-top:1em;
-	padding-bottom:.2em;
-	
-}
