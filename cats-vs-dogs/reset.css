@@ -155,13 +155,23 @@ body{
 		
 }
 
+#menu{
+	align:center;
+}
 
+li
 
-#navbar {
-	margin:0 auto;
+#navbar{
 	width:100%;
-	display:block;
+	display:inline-block;
 	text-align:center;
+	margin:0 auto;
+	background-color:red;
+	
+}
+
+#navbar ul{
+	margin:0 auto;
 }
 
 #navbar ul li a{
@@ -170,9 +180,11 @@ body{
 	font-weight: bold;
 	font-size: 1.5em;
 	color: black;
-	padding: 5px;
 	float:left;
-	display:inline-block;
+	padding:10px;
+	margin:10px;
+	background-color:yellow;
+	
 }
 
 	
