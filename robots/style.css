@@ -131,16 +131,17 @@ body {
 }
 
 #content-wrapper {
-	background-color:;
 	width:100%;
-	height:550px;
+	height:80%;
+	padding:10px;
 	margin:0 auto;
+	
 	
 	
 }
 
 #content {
-	padding:20px 10px 10px 0px;
+	padding:70px 10px 10px 0px;
 	width:65%;
 	height:500px;
 	margin:0 auto;
@@ -151,7 +152,8 @@ body {
 #page {
 	float:left;
 	width:60%;
-	margin:0auto;
+	margin-left:0px;
+	color:#76481b ;
 
 }
 
@@ -162,7 +164,7 @@ body {
 	height:70%;
 	float:right;
 	padding:20px;
-	margin:20px;
+
 	
 	
 }
@@ -198,15 +200,19 @@ body {
 	line-height:1.2em;
 	text-decoration:none;
 	text-transform: capitalize;
-	
+}
 
+#sidebar ul{
+	padding-bottom:10px;
+}
 
 #footer-wrapper{
 	background-color:#76481b;
-	padding:60px;
+	padding:80px;
 	width:100%;
-	height:5px;
+	height:10%;
 	position:relative;
+	
 
 }
 
@@ -217,11 +223,17 @@ body {
 	display:block;
 	line-height:1.6em;
 	padding:20px;
+	margin:0 auto;
 }
 
 #footer-follow {
 	float:right;
-	width:40%;
+	width:15%;
+	height:20%;
+	margin-right:200px;
+	margin-bottom:200px;
+	
+	
 }
 
 #footer-follow h1{
@@ -231,19 +243,22 @@ body {
 	font-size:1.5em;
 	
 	
+	
 }
 
 #footer-follow ul a{
-	float:right;
+	float:left;
 	
 	
 }
 
 #footer-contact{
 	position:absolute;
-	top:15px;
-	left:300px;
+	top:10px;
+	left:240px;
 	width:10%;
+	height:10%;
+
 
 }
 
@@ -256,7 +271,8 @@ body {
 
 #follow-us{
 	float: right;
-	width:40%;
+	width:20%;
+	margin-bottom:30px;
 	
 	
 	
@@ -268,6 +284,7 @@ h1{
 	font-size:2em;
 	text-transform:uppercase;
 	font-weight:bold;
+	padding-bottom:;
 	
 }
 
