@@ -141,7 +141,6 @@ body {
 
 #content {
 	padding:20px 10px 10px 0px;
-	background-color:red;
 	width:65%;
 	height:500px;
 	margin:0 auto;
@@ -159,7 +158,6 @@ body {
 
 
 #sidebar {
-	background-color:orange;
 	width:20%;
 	height:70%;
 	float:right;
@@ -236,8 +234,8 @@ body {
 }
 
 #footer-follow ul a{
-	
 	float:right;
+	
 	
 }
 
