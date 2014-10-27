@@ -228,10 +228,12 @@ body {
 
 #footer-follow {
 	float:right;
-	width:15%;
+	width:25%;
 	height:20%;
+	padding-bottom:200px;
 	margin-right:200px;
 	margin-bottom:200px;
+	
 	
 	
 }
@@ -241,6 +243,7 @@ body {
 	font-family:sans-serif;
 	color:#ebf2d5;
 	font-size:1.5em;
+	
 	
 	
 	
