@@ -77,19 +77,24 @@ body{
 	
 }
 
-
+#content{
+	margin:0 auto;
+	width:100%;
+	padding-bottom:20px;
+	padding-top:20px;
+}
 
 .dog-section {
 	float:right;
-	width:40%;
-	margin-right:80px;
+	width:35%;
+	margin-right:150px;
 }
 
 
 .cat-section {
 	float:left;
-	width:40%;
-	margin-left:80px;
+	width:35%;
+	margin-left:150px;
 }
 
 #logo-wrapper{
@@ -99,15 +104,11 @@ body{
 	
 }
 
-
-	
 #logo{
 	margin:0 auto;
 	width:100%;
 	padding:20px;
-	
 }
-
 
 #dog {
 	width:20%;
@@ -116,8 +117,6 @@ body{
 	text-align:center;
 	font-family: sans-serif;
 	font-size: 5em;
-
-	
 }
 
 #cat {
@@ -130,16 +129,8 @@ body{
 	
 }
 
-
-
-#content{
-	margin:0 auto;
-	width:100%;
-	padding-bottom:20px;
-	padding-top:20px;
-}
-
 #vs {
+	text-align:center;
 	padding-top:4px;
 	padding-bottom:4px;
 	border-top:4px solid #C6C6C6;
@@ -152,40 +143,21 @@ body{
 	font-family: sans-serif;
 	font-size: 3em;
 	color: #C6C6C6;
-
-		
 }
 
 #menu{
 	text-align:center;
-	margin:0 auto;
-	width:100%;
-}
-
-
-#navbar{
 	width:80%;
-	display:inline-block;
-	align:center;
-	margin:0 auto;
+	text-align:center;
+	padding:20px;
 	border-top:6px solid black;
 	border-bottom:6px solid black;
-	
-	
-}
-	
-}
-#navbar ul{
 	margin:0 auto;
-	width:80%;
-	
-	
 }
 
 #navbar li a{
-	
 	margin:0 auto;
-	padding-bottom:20px;
+	padding-bottom:10px;
 }
 
 #navbar ul li a{
@@ -195,10 +167,7 @@ body{
 	font-size: 1.5em;
 	color: black;
 	float:left;
-	margin:10px;
-	padding-bottom:30px;
-	
-	
+	margin:0 auto;
 	
 }
 
@@ -232,7 +201,7 @@ footer{
 	border-top:4px solid black;
 	border-bottom:0px;
 	margin:0 auto;
-	width:100%;
+	width:80%;
 	clear:both;
 }
 
@@ -246,7 +215,7 @@ footer{
 #wiki{ float: left;
 	clear:right;
 	width:40%;
-	margin-left:80px;
+	margin-left:150px;
 
 }
 
