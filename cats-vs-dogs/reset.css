@@ -209,7 +209,8 @@ img{ max-width:100%;}
 	.cat-section {width:100%; }
 	.dog-section {width:100%; }
 	.dot {display:none;}
-	#menu {width:80%;}
+	#menu {width:80%; font-size:.75em; display:block;}
+	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
 	
 
 }
