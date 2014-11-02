@@ -117,8 +117,8 @@ body{
 #menu{
 	width:80%;
 	text-align:center;
-	border-top:6px solid black;
-	border-bottom:6px solid black;
+	border-top:4px solid black;
+	border-bottom:4px solid black;
 	margin:0 auto;
 	
 	
@@ -203,13 +203,13 @@ img{ max-width:100%;}
 
 
 @media screen and (max-width:600px){
-	#navbar{ font-size:.8em; float:none; width:98%; margin:2% 2%;}
+	#navbar{ font-size:.75em; width:98%;}
 	#content { margin:0 auto;}
 	#logo {width:80%;}
 	.cat-section {width:100%; }
 	.dog-section {width:100%; }
 	.dot {display:none;}
-	#menu {width:80%; font-size:.75em; display:block;}
+	#menu {display:block;}
 	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
 	
 
