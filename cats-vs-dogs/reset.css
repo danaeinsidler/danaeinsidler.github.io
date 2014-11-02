@@ -204,7 +204,7 @@ img{ max-width:100%;}
 
 @media screen and (max-width:600px){
 	#navbar{ font-size:.75em;line-height:1.5em;}
-	#navbar li{width:15%;}
+	#navbar li{width:15%; text-align:center;}
 	#content { margin:0 auto;}
 	#logo {width:80%;}
 	.cat-section {width:100%; }
