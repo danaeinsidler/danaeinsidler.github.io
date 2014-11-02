@@ -102,32 +102,11 @@ body{
 
 #logo{
 	margin:0 auto;
-	display:inline-block;
 	width:100%;
 	padding:30px;
 	text-align:center;
 }
 
-#logo h1{
-	font-family: sans-serif;
-	font-size: 5em;
-	
-	
-	
-}
-
-#logo h2{
-	padding-top:4px;
-	padding-bottom:4px;
-	border-top:4px solid #C6C6C6;
-	border-bottom:4px solid #C6C6C6;
-	font-family: sans-serif;
-	font-size: 3em;
-	color: #C6C6C6;
-	width:5%;
-
-	
-}
 
 .dot{
 	font-size:3em;
@@ -226,13 +205,11 @@ img{ max-width:100%;}
 @media screen and (max-width:600px){
 	#navbar{ font-size:.8em; float:none; width:98%; margin:2% 2%;}
 	#content { margin:0 auto;}
-	#logo h1{font-size:3em;}
-	#logo h2{font-size:1em;}
+	#logo {width:80%;}
 	.cat-section {width:100%; }
 	.dog-section {width:100%; }
 	.dot {display:none;}
 	#menu {width:80%;}
+	
 
-	
-	
 }
