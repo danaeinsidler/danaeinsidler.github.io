@@ -106,12 +106,14 @@ body{
 	margin-right:10px;
 	vertical-align:middle;
 	font-size:.3em;
-	font-family:Georgia ;
+	color:gray;
+	font-family:georgia bold italic;
 	font-weight:bold italic;
-	border-top:4px solid black;
-	border-bottom:4px solid black;
-	border-style:double;
-
+	outline: 2px 0px 2px 0px solid gray;
+	border-top:6px solid gray;
+	border-bottom:6px solid gray;
+	
+	
 }
 
 #logo{
@@ -138,15 +140,12 @@ body{
 	
 }
 
-#menu{
-	
-	clear:both;
+#menu{	
 	width:80%;
 	text-align:center;
 	border-top:4px solid black;
 	border-bottom:4px solid black;
 	margin:0 auto;
-	vertical-align:middle;
 	
 	
 }
@@ -154,6 +153,10 @@ body{
 #navbar li {
 	display:inline-block;
 	margin-right:30px;
+	padding-bottom:20px;
+	
+
+	
 		
 }
 
@@ -163,6 +166,7 @@ body{
 	font-weight: bold;
 	font-size: 1.5em;
 	color: black;
+	
 }
 
 	
@@ -220,10 +224,11 @@ img{ max-width:100%;}
 
 
 @media screen and (max-width:600px){
-	#navbar{ font-size:.75em;line-height:1.5em;}
-	#navbar li{width:15%; text-align:center;}
-	#content { margin:0 auto;}
-	#logo {width:80%;}
+	#navbar{margin:0 auto; width:80%; font-size:.75em;}
+	#vs{border-top:4px solid gray;border-bottom:4px solid gray;}
+	#navbar li {display:inline-block;align:center;text-align:center;margin:0 auto;}
+	#content { margin:0 auto;width:80%;}
+	#logo {width:100%;font-size:.75em; text-align:center;}
 	.cat-section {width:100%; }
 	.dog-section {width:100%; }
 	.dot {visibility:hidden;width:0%;}
