@@ -3,6 +3,28 @@
   <head>
 	  <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
 <title>Dana Einsidler</title>
+
+
+
+	 <!-- Add jQuery library -->
+	 <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+	 <!-- Add mousewheel plugin (this is optional) -->
+	 <script type="text/javascript" src="jquery/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+	 <!-- Add fancyBox -->
+	 <link rel="stylesheet" href="jquery/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+	 <script type="text/javascript" src="jquery/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+	 <!-- Optionally add helpers - button, thumbnail and/or media -->
+	 <link rel="stylesheet" href="jquery/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+	 <script type="text/javascript" src="jquery/fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+	 <script type="text/javascript" src="jquery/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+	 <link rel="stylesheet" href="jquery/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+	 <script type="text/javascript" src="jquery/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+
   </head>
 <body>
 
@@ -36,14 +58,58 @@
 <body>
 	
 	<section>
+		
+		<div class="work-desc">
 		<h3>Bite Magazine</h3>
 		<p>
-		
-		
-		
+			A magazine for people wanting to learn cooking tips and facts. Tablet and Print Version!
+			
+			
 		</p>
+		<div>
+			
+			
+			
+		<!--for lightbox-->
+		<div class=>
+			<a class="fancybox" rel="group" href="images/bite/1-thumb.jpg"> <img src="images/bite/1-thumb.jpg" alt="placeholder" /></a>
+			
+			<a class="fancybox" rel="group" href="images/bite/1-thumb.jpg"> <img src="images/bite/1-thumb.jpg" alt="placeholder" /></a>
+			
+			<a class="fancybox" rel="group" href="images/bite/1-thumb.jpg"> <img src="images/bite/1-thumb.jpg" alt="placeholder" /></a>
+		</div>
+		<!--for lightbox-->
 		
-		<a href="http://danaeinsidler.github.io/final/finance"><img src="#" alt=work></a>
+	
+	
+	
+	<!--lightbox with captions-->	
+		
+	<div>
+		<a class="fancybox-button" rel="fancybox-button" href="images/bite/1-thumb.jpg" title="Table of Contents">
+			<img src="images/bite/1-thumb.jpg" alt="" />
+		</a>
+		<a class="fancybox-button" rel="fancybox-button" href="images/bite/1-thumb.jpg" title="Fro Yo Fallacy">
+			<img src="images/bite/1-thumb.jpg" alt="" />
+		</a>
+		<a class="fancybox-button" rel="fancybox-button" href="images/bite/1-thumb.jpg" title="How to Make a Perfect Omelet">
+			<img src="images/bite/1-thumb.jpg" alt="" />
+		</a>
+		
+		<a class="fancybox-button" rel="fancybox-button" href="images/bite/1-thumb.jpg" title="How to Make a Perfect Omelet">
+			<img src="images/bite/1-thumb.jpg" alt="" />
+		</a>
+		
+		<a class="fancybox-button" rel="fancybox-button" href="images/bite/1-thumb.jpg" title="Alternative Cover">
+			<img src="images/bite/1-thumb.jpg" alt="" />
+		</a>
+		
+		<div>
+			
+				<!--lightbox with captions-->
+		
+		
+
 	
 	</section>
 	  
@@ -51,6 +117,36 @@
 		<h5>Created by <span>Dana Einsidler</span></h5>
 		<h5>&copy; 2014</h5>
 	</footer>
+
+
+
+<!--run it!-->	
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+</script>
+<!--run it!-->	
+	
+	
+	<!--run it!-->	
+	<script>
+	$(document).ready(function() {
+		$(".fancybox-button").fancybox({
+			prevEffect		: 'none',
+			nextEffect		: 'none',
+			closeBtn		: false,
+			helpers		: {
+				title	: { type : 'inside' },
+				buttons	: {}
+			}
+		});
+	});
+	
+	</script>
+	<!--run it!-->	
+		
+	
 	</body>
 </html>
 	  
