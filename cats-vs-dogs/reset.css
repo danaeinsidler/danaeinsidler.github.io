@@ -107,11 +107,11 @@ body{
 	vertical-align:middle;
 	font-size:.3em;
 	color:gray;
-	font-family:georgia bold italic;
-	font-weight:bold italic;
-	outline: 2px 0px 2px 0px solid gray;
-	border-top:6px solid gray;
-	border-bottom:6px solid gray;
+	font-family:georgia;
+	font-weight:bold;
+	font-style:italic;
+	border-top:5px solid gray;
+	border-bottom:5px solid gray;
 	
 	
 }
@@ -262,13 +262,4 @@ img{ max-width:100%;}
 }
 
 
-@font-face {
-	font-family: "Flaticon";
-	src: url("georgia-bold-italic.eot");
-	src: url("georgia-bold-italic.eot#iefix") format("embedded-opentype"),
-	url("georgia-bold-italic.woff") format("woff"),
-	url("georgia-bold-italic.ttf") format("truetype"),
-	url("georgia-bold-italic.svg") format("svg");
-	font-weight: normal;
-	font-style: normal;
-}
+
