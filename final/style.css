@@ -84,10 +84,9 @@ nav ul a{
 	margin-right:4px;
 }
 
-nav:hover ul a{
+nav:hover li a{
 	background-color:black;
-	font-size:1.2em;
-	
+
 }
 
 #follow a{
@@ -95,6 +94,8 @@ nav:hover ul a{
 	margin:2px;
 	
 }
+
+
 
 
 #work a{
@@ -158,7 +159,7 @@ footer h5{
 
 .vert {
 	
-	width:5%;
+	width:10%;
 	
 }
 
