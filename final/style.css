@@ -58,6 +58,8 @@ body{
 #logo-wrapper{
 	padding:30px;
 	background-color:#AB0054;
+	margin:0 auto;
+	width:100%;
 	border-bottom:6px solid #FD9C06;
 	
 }
@@ -65,7 +67,8 @@ body{
 
 #logo{
 	float:left;
-	width:50%;
+	width:40%;
+	margin-left:20px;
 	
 
 }
@@ -77,14 +80,19 @@ nav ul a{
 	font-size:1em;
 	color:white;
 	text-decoration:none;
-	background-color:#4E4E4E;
-	border-radius:3px;
+	background-color:#AB0054;
+	                                                                                                                                                                                                                                                                                                                                                        border-radius:3px;
 	padding:22px;
 	margin-left:4px;
 	margin-right:4px;
 }
 
-nav:hover li a{
+  ul a:hover {
+	background-color:#8E0331;
+
+}
+
+ ul a:active {
 	background-color:black;
 
 }
@@ -95,11 +103,15 @@ nav:hover li a{
 	
 }
 
-
+#follow:hover a{
+	
+	background: url('images/behance-hover.png');
+}
 
 
 #work a{
 	margin:0 auto;
+	width:100%;
 	
 }
 
@@ -113,7 +125,6 @@ nav:hover li a{
 #work img{
 	height:300px;
 	width:300px;
-	opacity:.4;
 	padding:20px;
 }
 
