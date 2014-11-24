@@ -76,7 +76,7 @@ body{
 
 
 nav ul a{
-	font-family:sans-serif;
+	font-family:'Cabin', sans-serif;
 	float:left;
     font-style: normal;
 	font-size:1em;
@@ -147,8 +147,7 @@ nav ul a{
 
 footer{
 	font-family: 'Cabin', sans-serif;
-	font-size:.75em;
-	color:white;
+	font-size:.8em;
 	background-color:#AB0054;
 	padding:20px;
 	height:20px;
@@ -191,7 +190,7 @@ footer h5{
 #hello h1 {
 	color:#AB0054;
 	padding-bottom:20px;
-	font-family:sans-serif;
+	font-family:'Cabin', sans-serif;
 	font-size:2em;
 }
 
@@ -210,7 +209,7 @@ footer h5{
 /*----resize images in photoshop--*/
 
 h3{
-	font-family:sans-serif;
+	font-family:'Cabin', sans-serif;
 	font-size:1.25em;
 	padding-bottom:6px;
 
