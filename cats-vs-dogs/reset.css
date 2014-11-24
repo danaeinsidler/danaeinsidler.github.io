@@ -153,11 +153,8 @@ body{
 #navbar li {
 	display:inline-block;
 	margin-right:30px;
-	padding-bottom:20px;
+	padding-bottom:20px
 	
-
-	
-		
 }
 
 #navbar ul li a{
@@ -168,6 +165,9 @@ body{
 	color: black;
 	
 }
+
+
+#navbar img {display:none;}
 
 	
 h3 {
@@ -224,14 +224,21 @@ img{ max-width:100%;}
 
 
 @media screen and (max-width:600px){
-	#navbar{margin:0 auto; width:80%; font-size:.75em;}
 	#vs{border-top:4px solid gray;border-bottom:4px solid gray;}
-	#navbar li {display:inline-block;align:center;text-align:center;margin:0 auto;}
 	#content { margin:0 auto;width:80%;}
 	#logo {width:100%;font-size:.75em; text-align:center;}
 	.cat-section {width:100%; }
 	.dog-section {width:100%; }
 	.dot {visibility:hidden;width:0%;}
+	
+	#navbar{height:50px; font-size:.75em;}
+	#navbar li {display:none;}
+	#navbar img{display:block;}
+	#navbar:hover li {;display:block;float:left;width:15%;clear:left;margin-bottom:-50px;}
+	#navbar:hover {height:180px;}
+
+	
+	
 	                                      
 
 @font-face {
