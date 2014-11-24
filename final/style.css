@@ -52,7 +52,7 @@ table {
 
 body{
 	
-	background-color:#8E0331;
+	background-color:#F2EBED;
 
 }
 
@@ -76,17 +76,21 @@ body{
 
 
 nav ul a{
-	float:left;
 	font-family:sans-serif;
+	float:left;
+    font-style: normal;
 	font-size:1em;
 	color:white;
 	text-decoration:none;
 	background-color:#AB0054;
-	                                                                                                                                                                                                                                                                                                                                                        border-radius:3px;
+ 	border-radius:3px;
 	padding:22px;
 	margin-left:4px;
 	margin-right:4px;
 }
+
+
+
 
   ul a:hover {
 	background-color:#8E0331;
@@ -104,30 +108,16 @@ nav ul a{
 	
 }
 
-#follow:hover a{
+
+.select{display:none;}
+	
+.hover{display:none;}
+
+#follow:hover .class a{
 	
 	background: url('images/behance-hover.png');
 }
 
-
-#work a{
-	margin:0 auto;
-	width:100%;
-	
-}
-
-#work h3{
-	display:block;
-	padding:40px;
-	font-family:sans-serif;
-	font-size:1em;
-}
-
-#work img{
-	height:300px;
-	width:300px;
-	padding:20px;
-}
 
 #work {
 	padding:40px;
@@ -136,20 +126,40 @@ nav ul a{
 
 }
 
+#work a{
+	margin:0 auto;
+	width:100%;
+	
+}
+
+/*----resize images in photoshop--*/
+#work img{
+	height:300px;
+	width:300px;
+	padding:20px;
+}
+
+/*----resize images in photoshop--*/
+
+
 
 footer{
 	font-family:sans-serif;
-	font-size:.7em;
+	font-size:.75em;
+	color:white;
 	background-color:#AB0054;
 	padding:20px;
+	height:20px;
 	clear:both;
 	border-top:6px solid #FD9C06;
+	
 }
 
 
 footer h5{
 	float:left;
 	margin-left:40px;
+	margin-top:5px;
 	align:vertical;
 }
 
@@ -165,6 +175,26 @@ footer h5{
 
 }
 
+#hello{
+	
+	height:500px;
+}
+
+#hello section{
+	
+	padding:60px;
+	text-align:left;
+}
+
+#hello h1 {
+	color:#AB0054;
+	padding-bottom:20px;
+	font-family:sans-serif;
+	font-size:2em;
+}
+
+
+/*----resize images in photoshop--*/
 .hor {
 	
 	width:20%;
@@ -175,10 +205,20 @@ footer h5{
 	width:10%;
 	
 }
-
+/*----resize images in photoshop--*/
 
 h3{
 	font-family:sans-serif;
-	font-size:1.5em;
-	padding:5px;
+	font-size:1.25em;
+	padding-bottom:6px;
+
 }
+
+
+
+
+
+
+
+
+
