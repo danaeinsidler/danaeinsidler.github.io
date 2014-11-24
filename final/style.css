@@ -53,6 +53,7 @@ table {
 body{
 	
 	background-color:#8E0331;
+
 }
 
 #logo-wrapper{
@@ -157,7 +158,8 @@ footer h5{
 .work-desc {
 	
 	padding:50px;
-	background-color: white;
+	float:left;
+	width:30%;
 	
 	
 
@@ -174,3 +176,9 @@ footer h5{
 	
 }
 
+
+h3{
+	font-family:sans-serif;
+	font-size:1.5em;
+	padding:5px;
+}
