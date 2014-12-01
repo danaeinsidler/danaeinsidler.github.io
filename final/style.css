@@ -66,10 +66,15 @@ body{
 }
 
 
-#logo{
+#logo a{
 	float:left;
 	width:40%;
 	margin-left:20px;
+	font-family: 'Cabin', sans-serif;
+	font-style:bold;
+	font-size:3em;
+	color:#FD9C06;
+	text-decoration:none;
 	
 
 }
