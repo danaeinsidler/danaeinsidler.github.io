@@ -120,12 +120,6 @@ nav ul a{
 
 
 
-#follow:hover .class a{
-	
-	background: url('images/behance-hover.png');
-}
-
-
 #work {
 	padding:40px;
 	margin:0 auto;
@@ -138,8 +132,6 @@ nav ul a{
 	width:100%;
 	
 }
-
-
 
 /*----resize images in photoshop--*/
 #work img{
@@ -208,7 +200,6 @@ footer h5{
 	font-family:'Cabin', sans-serif;
 	font-size:2em;
 }
-
 
 
 h3{
