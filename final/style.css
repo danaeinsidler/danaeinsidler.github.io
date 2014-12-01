@@ -83,7 +83,7 @@ nav ul a{
 	color:white;
 	text-decoration:none;
 	background-color:#AB0054;
- 	border-radius:3px;
+	
 	padding:22px;
 	margin-left:4px;
 	margin-right:4px;
@@ -94,6 +94,7 @@ nav ul a{
 
   ul a:hover {
 	background-color:#8E0331;
+	
 
 }
 
@@ -148,8 +149,6 @@ nav ul a{
 	    filter: gray; /* IE6-9 */
 	   -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
 	
-	height:300px;
-	width:300px;
 	padding:20px;
 }
 
@@ -213,18 +212,6 @@ footer h5{
 }
 
 
-/*----resize images in photoshop--*/
-.hor {
-	
-	width:20%;
-}
-
-.vert {
-	
-	width:10%;
-	
-}
-/*----resize images in photoshop--*/
 
 h3{
 	font-family:'Cabin', sans-serif;
