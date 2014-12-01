@@ -120,10 +120,6 @@ nav ul a{
 
 
 
-.select{display:none;}
-	
-.hover{display:none;}
-
 #follow:hover .class a{
 	
 	background: url('images/behance-hover.png');
@@ -142,6 +138,8 @@ nav ul a{
 	width:100%;
 	
 }
+
+
 
 /*----resize images in photoshop--*/
 #work img{
