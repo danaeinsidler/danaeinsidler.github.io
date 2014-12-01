@@ -117,13 +117,70 @@ nav ul a{
 }
 
 #follow a{
-	
 	margin:2px;
-	
+}
+
+/*--hover effect stuff--*/
+
+
+/** Caption 1: Simple **/
+#mainwrapper .box .simple-caption {
+	height: 0px;
+	width: 300px;
+	margin:0 auto;
+	display:block;
+	line-height: 25pt;
+	text-align: center;
 	
 }
 
+.caption p{
+	display:none;
+}
 
+/* Caption Common Style */
+#mainwrapper .box .caption {
+	background-color: #AB0054;
+	position: relative;
+	color: #fff;
+	z-index: 100;
+		-webkit-transition: all 300ms ease-out;
+		-moz-transition: all 300ms ease-out;
+		-o-transition: all 300ms ease-out;
+		-ms-transition: all 300ms ease-out;	
+		transition: all 300ms ease-out;
+	left: 0;
+	bottom:23px;
+}
+
+
+/** Simple Caption :hover Behaviour **/
+#mainwrapper .box:hover .simple-caption p{
+	display:block;
+	height: 50px;
+	width: 300px;
+	font-family: 'Cabin', sans-serif;
+	background-color: rgba(0,0,0,0.7);
+	-moz-transform: translateY(-100%);
+	-o-transform: translateY(-100%);
+	-webkit-transform: translateY(-100%);
+	opacity: 1;
+	transform: translateY(-100%);
+}
+	
+
+
+/* Image Box Style */
+	#mainwrapper .box {
+		display:hidden;
+		display:inline-block;
+		float: left;
+		
+		
+	}
+	
+
+/*--hover effect stuff--*/
 
 #work {
 	padding:40px;
@@ -138,7 +195,7 @@ nav ul a{
 	
 }
 
-/*----resize images in photoshop--*/
+
 #work img{
 	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
 	    filter: gray; /* IE6-9 */
@@ -153,7 +210,7 @@ nav ul a{
       -webkit-filter: grayscale(0%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
 }
 
-/*----resize images in photoshop--*/
+
 
 
 
