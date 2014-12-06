@@ -2,7 +2,37 @@
 <html>
   <head>
 	  
+	  
+	  <script>jQuery('#shop-demo').slippry({
+	    // general elements & wrapper
+	    slippryWrapper: '<div class="sy-box shop-slider" />', // wrapper to wrap everything, including pager
+	    elements: 'article', // elments cointaining slide content
+
+	    // options
+	    adaptiveHeight: false, // height of the sliders adapts to current slide
+	    start: 2, // num (starting from 1), random
+	    loop: false, // first -> last & last -> first arrows
+	    captionsSrc: 'article',
+	    captions: 'custom', // Position: overlay, below, custom, false
+	    captionsEl: '.product-name',
+
+	    // pager
+	    pager: false,
+
+	    // transitions
+	    slideMargin: 20, // spacing between slides (in %)
+	    useCSS: true,
+	    transition: 'horizontal',
+
+	    // slideshow
+	    auto: false
+	  });
+	  </script>
+	  
+	  
 	  	<link href='http://fonts.googleapis.com/css?family=Cabin:400,500,600,700,400italic,500italic,600italic,700italic' rel='stylesheet' type='text/css'>
+		
+		
 	  <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
 <title>Dana Einsidler</title>
   </head>
@@ -12,7 +42,7 @@
 	  	  	<div id="logo-wrapper">
 	  	  	  	<div id="logo">
 	   					
-							<a href="http://danaeinsidler.github.io/final"><img src="images/logo.png" alt="logo"></a>
+								<a href="http://danaeinsidler.github.io/final"><h1>Dana Einsidler</h1></a>
 	
 	 	
 	  		</div>
@@ -39,16 +69,16 @@
 	</header>
 	
 	
-	<section>
-		<h3>First Things First</h3>
+	<section class= "shop">
+		<h3 class="restricted-width">First Things First</h3>
 		<p>
 		
-		
+		Based on the First Things First manifestos, this series of work is meant to express my opinion towards design. People should be allowed to push boundaries in all forms of design. However, designers also need to be aware of the responsibility that comes with communicating ideas. While sexuality should not be shunned, there is certainly a fine line between sexuality and sexism.
 		
 		</p>
 		<div>
-		<img class="hor"src="images/ftf/1.jpg" alt=work>
-		<img class="hor"src="images/ftf/2.jpg" alt=work>
+		<img class="image-content"src="images/ftf/1.jpg" alt=work>
+		<img class="image-content"src="images/ftf/2.jpg" alt=work>
 	</div>
 	</section>
 	  
