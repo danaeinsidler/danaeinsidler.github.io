@@ -67,7 +67,7 @@ body{
 #logo a{
 	float:left;
 	width:40%;
-	margin-left:20px;
+	margin:0 auto;
 	font-family: 'Cabin', sans-serif;
 	font-variant: small-caps;
 	text-transform:lowercase;
@@ -111,7 +111,7 @@ ul a:hover {
 
 footer{
 	margin:0 auto;
-	width:200%;
+	width:100%;
 	align:center;
 	font-family: 'Cabin', sans-serif;
 	font-size:.8em;
@@ -272,7 +272,7 @@ p span{
 #work {
 	align:center;
 	margin:0 auto;
-	width:100%;
+	width:80%;
 }
 
 
@@ -315,6 +315,26 @@ p span{
 
 /*-- images--*/
 
+
+
+.shop {
+	margin:0 auto;
+	padding:40px;
+}
+
+.product-info p{
+	position:relative;
+	top:0;
+	left:0;
+	opacity:70%;
+	color:white;
+	background-color: rgba(0,0,0,0.7);
+	padding:20px;
+	margin:0;
+	
+}
+
+
 @media only screen and (max-width: 500px) {
   .shop .sy-box .sy-controls li {
     min-width: 2.4em;
@@ -356,6 +376,7 @@ p span{
   left: 0;
   height: 100%;
   padding: 1em;
+  
 }
 @media only screen and (max-width: 500px) {
   .shop .sy-box .sy-slide .product-info {
@@ -414,8 +435,8 @@ p span{
 .product-name,
 .shop-slider .slide_box {
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 @media only screen and (min-width: 401px) {
   .product-name,
