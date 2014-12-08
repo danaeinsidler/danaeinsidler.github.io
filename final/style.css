@@ -51,6 +51,9 @@ table {
 body{
 	
 	background-color:#F2EBED;
+	max-width:100%;
+	overflow: scroll;
+	
 
 }
 
@@ -63,11 +66,15 @@ body{
 	
 }
 
-
+header{
+	margin: 0 auto;
+	width:100%;
+}
 #logo a{
 	float:left;
-	width:40%;
+	width:50%;
 	margin:0 auto;
+	margin-left:30px;
 	font-family: 'Cabin', sans-serif;
 	font-variant: small-caps;
 	text-transform:lowercase;
@@ -106,6 +113,8 @@ ul a:hover {
 	
  #follow a{
 	margin:2px;
+	margin:0 auto;
+	width:25%;
 }
 
 
@@ -323,14 +332,13 @@ p span{
 }
 
 .product-info p{
-	position:relative;
-	top:0;
-	left:0;
 	opacity:70%;
 	color:white;
 	background-color: rgba(0,0,0,0.7);
 	padding:20px;
-	margin:0;
+	width:100%;
+	display:inline-block;
+	
 	
 }
 
@@ -384,34 +392,24 @@ p span{
   }
 }
 .shop .sy-box .sy-slide .product-info p {
-  margin-bottom: 1em;
+  margin-bottom: ;
 }
 .shop .sy-box .sy-slide .product-info p, .shop .sy-box .sy-slide .product-info .button-link {
   opacity: 0;
 }
-.shop .sy-box .sy-slide .product-info .button-link {
-  position: absolute;
-  bottom: 1em;
-}
-.shop .sy-box .sy-slide .product-info .buy-now {
-  right: 1em;
-}
+
 @media only screen and (max-width: 500px) {
   .shop .sy-box .sy-slide .product-info .buy-now {
     right: 2.4em;
   }
 }
-.shop .sy-box .sy-slide .product-info .more-info {
-  left: 1em;
-}
+
 @media only screen and (max-width: 500px) {
   .shop .sy-box .sy-slide .product-info .more-info {
     left: 2.4em;
   }
 }
-.shop .sy-box .sy-slide .image-content {
-  line-height: 0;
-}
+
 .shop .sy-box .sy-slide .image-content .product-image {
   max-width: 100%;
 }
@@ -435,8 +433,7 @@ p span{
 .product-name,
 .shop-slider .slide_box {
   width: 100%;
-  margin-left: 5px;
-  margin-right: 5px;
+ 
 }
 @media only screen and (min-width: 401px) {
   .product-name,
@@ -447,3 +444,26 @@ p span{
   }
 }
 /* Shop */
+
+
+/* responsive */
+
+
+
+
+@media screen and (max-width:600px){
+
+
+	#logo-wrapper{height:150px;}
+	#logo { width:200%; margin:0 auto;}
+	nav ul a { float:left;width:10%; margin:0 auto;}
+	#follow { float:left;width:200%;margin:0 auto;}
+	.about-work h3{width:100%;}
+	.about-work p{width:100%; }
+	#footer {margin:0 auto;width:20%;}
+	
+	
+
+
+}
+
