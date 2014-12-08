@@ -48,11 +48,30 @@ table {
 }
 /*--endddddd---*/
 
+
+
+
+
+
+.video {
+	
+	margin: 0 auto;
+	padding:40px;
+	
+}
+
+
+.product-image {
+	
+	overflow-x:hidden;
+}
+
+
 body{
 	
 	background-color:#F2EBED;
 	max-width:100%;
-	overflow: scroll;
+	overflow-x: hidden ;
 	
 
 }
@@ -93,7 +112,6 @@ nav ul a{
 	color:white;
 	text-decoration:none;
 	background-color:#AB0054;
-	
 	padding:22px;
 	margin-left:4px;
 	margin-right:4px;
@@ -460,20 +478,12 @@ p span{
 	#logo { width:100%; margin:0 auto;padding-bottom:40px;}
 	nav ul a { display:inline-block;float:left;width:15%; margin:0 auto;align:center;}
 	ul a { margin:0 auto; padding:0px;align:center;}
-
 	#follow a{ float:left;width:20%;margin:0 auto;}
 	#follow {width:100%;clear:left;;margin:0 auto;}
-	
-	
 	.about-work {width:200%;margin:0 auto;}
-	
 	#work a{margin:0 auto; width:100%;}
 	#footer h3{margin:0 auto;}
 	body {overflow-x:hidden}
 	
-	
-	
-
-
 }
 
