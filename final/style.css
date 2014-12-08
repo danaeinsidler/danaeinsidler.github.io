@@ -329,6 +329,8 @@ p span{
 }
 .shop .sy-box .sy-slides-crop {
   overflow: visible;
+  margin:0 auto;
+  width:100%;
 }
 @media only screen and (max-width: 500px) {
   .shop .sy-box .sy-controls li {
