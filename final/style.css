@@ -450,7 +450,7 @@ p span{
 
 
 	#logo-wrapper{height:160px;}
-	#logo { width:100%; margin:0 auto;padding-bottom:40px;}
+	#logo { width:200%; margin:0 auto;padding-bottom:40px;}
 	nav ul a { display:inline-block;float:left;width:15%; margin:0 auto;align:center;}
 	ul a { margin:0 auto; padding:0px;align:center;}
 	#follow a{ float:left;width:20%;margin:0 auto;}
