@@ -172,7 +172,7 @@ footer h5{
 }
 
 #hello h1 {
-	color:#FD9C06;
+	color:black;
 	padding-bottom:20px;
 	font-family:'Cabin', sans-serif;
 	font-size:1.5em;
@@ -206,7 +206,7 @@ p span{
 
 .about-work h3{
 		line-height:1.2em;
-		color:#FD9C06;
+		color:black;
 		padding-bottom:20px;
 		font-family:'Cabin', sans-serif;
 		font-size:1.5em;
