@@ -75,7 +75,7 @@ body{
 	background-color:#AB0054;
 	margin:0 auto;
 	width:100%;
-	border-bottom:6px solid #FD9C06;
+	
 	
 }
 
@@ -85,9 +85,9 @@ header{
 }
 #logo a{
 	float:left;
-	width:50%;
+	width:40%;
 	margin:0 auto;
-	margin-left:30px;
+	margin-left:130px;
 	font-family: 'Cabin', sans-serif;
 	font-variant: small-caps;
 	text-transform:lowercase;
@@ -105,16 +105,18 @@ nav ul a{
 	font-size:1em;
 	color:white;
 	text-decoration:none;
-	background-color:#AB0054;
 	padding:22px;
 	margin-left:4px;
 	margin-right:4px;
 }
 
 ul a:hover {
-	background-color:#8E0331;
+	padding-bottom:15px;
+	color:white;
+	background-color: #8E0331;
 	
-
+	
+	
 }
 
 #follow img:hover{
@@ -132,23 +134,22 @@ ul a:hover {
 
 footer{
 	margin:0 auto;
-	width:500%;
+	width:100%;
 	font-family: 'Cabin', sans-serif;
 	font-size:.8em;
 	background-color:#AB0054;
 	padding:20px;
 	height:20px;
 	clear:both;
-	border-top:6px solid #FD9C06;
+	
 	
 }
 
 footer h5{
 	display:inline-block;
-	
-	
+	margin-left:130px;
 	align:vertical;
-	color:#FD9C06;
+	color:black;
 }
 
 
