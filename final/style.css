@@ -412,6 +412,8 @@ p span{
 
 .shop .sy-box .sy-slide .image-content .product-image {
   max-width: 100%;
+
+
 }
 .shop .sy-box .sy-slide.sy-active {
   opacity: 1;
@@ -454,13 +456,20 @@ p span{
 @media screen and (max-width:600px){
 
 
-	#logo-wrapper{height:150px;}
-	#logo { width:200%; margin:0 auto;}
-	nav ul a { float:left;width:10%; margin:0 auto;}
-	#follow { float:left;width:200%;margin:0 auto;}
-	.about-work h3{width:100%;}
-	.about-work p{width:100%; }
+	#logo-wrapper{height:160px;}
+	#logo { width:200%; margin:0 auto;padding-bottom:40px;}
+	nav ul a { display:inline-block;float:left;width:15%; margin:0 auto;align:center;}
+	ul a { margin:0 auto; padding:0px;align:center;}
+
+	#follow a{ float:left;width:20%;margin:0 auto;}
+	#follow {width:100%;clear:left;;margin:0 auto;}
+	
+	
+	.about-work {width:80%;margin:0 auto;}
+	
+	
 	#footer {margin:0 auto;width:20%;}
+	
 	
 	
 
