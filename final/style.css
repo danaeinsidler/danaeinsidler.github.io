@@ -48,11 +48,6 @@ table {
 }
 /*--endddddd---*/
 
-
-
-
-
-
 .video {
 	
 	margin: 0 auto;
@@ -390,7 +385,7 @@ p span{
 
 
 .shop .sy-box .sy-slide {
-  opacity: 0.6;
+  opacity: 0.7;
   -webkit-transition: opacity 1s;
   -moz-transition: opacity 1s;
   -o-transition: opacity 1s;
@@ -409,9 +404,7 @@ p span{
     padding: 1em 2.4em;
   }
 }
-.shop .sy-box .sy-slide .product-info p {
-  margin-bottom: ;
-}
+
 .shop .sy-box .sy-slide .product-info p, .shop .sy-box .sy-slide .product-info .button-link {
   opacity: 0;
 }
@@ -422,25 +415,7 @@ p span{
   }
 }
 
-@media only screen and (max-width: 500px) {
-  .shop .sy-box .sy-slide .product-info .more-info {
-    left: 2.4em;
-  }
-}
 
-.shop .sy-box .sy-slide .image-content .product-image {
-  max-width: 100%;
-
-
-}
-.shop .sy-box .sy-slide.sy-active {
-  opacity: 1;
-}
-
-
-.shop .sy-box .sy-slide.sy-active:hover .product-info p, .shop .sy-box .sy-slide.sy-active:hover .product-info .button-link {
-  opacity: 1;
-  
 }
 .shop .sy-box .sy-slide .product-info p,
 .shop .sy-box .sy-slide .product-info .button-link,
