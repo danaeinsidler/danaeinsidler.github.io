@@ -66,6 +66,7 @@ body{
 	background-color:#F2EBED;
 	max-width:100%;
 	overflow-x: hidden ;
+	height:300px;
 	
 
 }
@@ -162,18 +163,19 @@ footer h5{
 }
 
 #hello{
-	height:500px;
+	height:600px;
 }
 
 #hello section{
-	
-	padding:60px;
+	padding-top:60px;
+	padding-left:160px;
 	text-align:left;
 }
 
 #hello h1 {
 	color:black;
 	padding-bottom:20px;
+	font-weight:bold;
 	font-family:'Cabin', sans-serif;
 	font-size:1.5em;
 }
@@ -183,6 +185,7 @@ h3{
 	font-family:'Cabin', sans-serif;
 	font-size:1.25em;
 	padding-bottom:6px;
+	
 
 }
 
@@ -198,8 +201,8 @@ p span{
 
 }
 
-.about-work{padding:50px;
-		width:30%;
+.about-work{padding:130px;
+		width:0%;
 		line-height:1.2em;
 }
 
@@ -210,6 +213,7 @@ p span{
 		padding-bottom:20px;
 		font-family:'Cabin', sans-serif;
 		font-size:1.5em;
+		font-weight:bold;
 	
 	}
 
