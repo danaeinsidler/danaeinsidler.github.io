@@ -457,7 +457,7 @@ p span{
 
 
 	#logo-wrapper{height:160px;}
-	#logo { width:200%; margin:0 auto;padding-bottom:40px;}
+	#logo { width:100%; margin:0 auto;padding-bottom:40px;}
 	nav ul a { display:inline-block;float:left;width:15%; margin:0 auto;align:center;}
 	ul a { margin:0 auto; padding:0px;align:center;}
 
@@ -465,10 +465,11 @@ p span{
 	#follow {width:100%;clear:left;;margin:0 auto;}
 	
 	
-	.about-work {width:80%;margin:0 auto;}
+	.about-work {width:200%;margin:0 auto;}
 	
-	
-	#footer {margin:0 auto;width:20%;}
+	#work a{margin:0 auto; width:100%;}
+	#footer h3{margin:0 auto;}
+	body {overflow-x:hidden}
 	
 	
 	
