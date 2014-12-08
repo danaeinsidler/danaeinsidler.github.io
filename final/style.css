@@ -449,19 +449,19 @@ p span{
 
 
 
-@media screen and (max-width:600px){
-
-
-	#logo-wrapper{height:160px;}
-	#logo { width:200%; margin:0 auto;padding-bottom:40px;}
+@media screen and (max-width:500px){
+	#logo-wrapper{height:180px;}
+	#logo { width:200%; margin:0 auto;padding-bottom:40px; align:center;}
 	nav ul a { display:inline-block;float:left;width:15%; margin:0 auto;align:center;}
 	ul a { margin:0 auto; padding:0px;align:center;}
 	#follow a{ float:left;width:20%;margin:0 auto;}
 	#follow {width:100%;clear:left;;margin:0 auto;}
-	.about-work {width:200%;margin:0 auto;}
-	#work a{margin:0 auto; width:100%;}
-	#footer h3{margin:0 auto;}
-	body {overflow-x:hidden}
+	.about-work h3 {width:250%;margin:0 auto;}
+	.about-work p{width:250%;margin:0 auto;}
+	#work a{ margin:0 auto; width:80%; align:center;}
+	#footer h3{ margin:0 auto; width:200%;}
+	body {overflow-x:hidden; width:100%;height:300px; margin:0 auto;}
+	.video{max-height:30%; margin:0 auto;}
 	
 }
 
