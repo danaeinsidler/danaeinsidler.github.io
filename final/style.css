@@ -196,14 +196,13 @@ p span{
 }
 
 .about-work{padding:50px;
-	width:30%;
+	padding-left:160px;
+	width:40%;
 	line-height:1.2em;
 
 }
 
-.about-work{padding:130px;
-		width:0%;
-		line-height:1.2em;
+
 }
 
 
