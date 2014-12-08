@@ -93,7 +93,7 @@ header{
 	text-transform:lowercase;
 	font-style:bold;
 	font-size:3em;
-	color:#FD9C06;
+	color:white;
 	text-decoration:none;
 }
 
@@ -171,7 +171,7 @@ footer h5{
 }
 
 #hello h1 {
-	color:#AB0054;
+	color:#FD9C06;
 	padding-bottom:20px;
 	font-family:'Cabin', sans-serif;
 	font-size:1.5em;
@@ -205,7 +205,7 @@ p span{
 
 .about-work h3{
 		line-height:1.2em;
-		color:#AB0054;
+		color:#FD9C06;
 		padding-bottom:20px;
 		font-family:'Cabin', sans-serif;
 		font-size:1.5em;
