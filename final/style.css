@@ -63,17 +63,25 @@ table {
 
 body{
 	
-	background-color:#F2EBED;
+	background-color:black;
 	max-width:100%;
 	overflow-x: hidden ;
 	height:300px;
-	
+	background: #ed1164; /* Old browsers */
+	background: -moz-linear-gradient(top, #ed1164 0%, #ffffff 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ed1164), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ed1164 0%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ed1164 0%,#ffffff 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #ed1164 0%,#ffffff 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #ed1164 0%,#ffffff 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ed1164', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+	copy
 
 }
 
 #logo-wrapper{
-	padding:30px;
-	background-color:#AB0054;
+	align:center;
+	padding:15px;
 	margin:0 auto;
 	width:100%;
 	
@@ -90,11 +98,9 @@ header{
 	margin:0 auto;
 	margin-left:130px;
 	font-family: 'Cabin', sans-serif;
-	font-variant: small-caps;
-	text-transform:lowercase;
 	font-style:bold;
 	font-size:3em;
-	color:white;
+	color:black;
 	text-decoration:none;
 }
 
@@ -114,7 +120,7 @@ nav ul a{
 ul a:hover {
 	padding-bottom:15px;
 	color:white;
-	background-color: #8E0331;
+
 	
 	
 	
@@ -122,7 +128,7 @@ ul a:hover {
 
 #follow img:hover{
    
-  	background-color:#8E0331;
+
 
  }
 	
@@ -138,9 +144,6 @@ footer{
 	width:100%;
 	font-family: 'Cabin', sans-serif;
 	font-size:.8em;
-	background-color:#AB0054;
-	padding:20px;
-	height:20px;
 	clear:both;
 	
 	
@@ -148,9 +151,10 @@ footer{
 
 footer h5{
 	display:inline-block;
-	margin-left:130px;
+	margin-left:100px;
 	align:vertical;
-	color:black;
+	color:white
+	;
 }
 
 
